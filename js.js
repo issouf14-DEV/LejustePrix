@@ -21,7 +21,7 @@ function verifier(nombreChoisi) {
     instruction.className = "instruction plus";
   } else if (nombreChoisi > nombreAleatoire) {
     instruction.textContent =
-      "#  " + coups + " " + "(" + nombreChoisi + ")" + " c'est plus !";
+      "#  " + coups + " " + "(" + nombreChoisi + ")" + " c'est moin !";
     instruction.className = "instruction moins";
   } else {
     instruction.textContent =
